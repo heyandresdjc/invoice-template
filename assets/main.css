@@ -1,0 +1,57 @@
+:root {
+    --main-color: green;
+    --side-margin: 40px;
+    --page-margin-value: 48px;
+  }
+
+
+.page-margin{
+    margin: var(--page-margin-value);
+    width: 816px;
+    height: 1104px;
+}
+
+
+#top-bar{
+    margin-top: 75px;
+    margin-bottom: 25px;
+    /* margin-left: var(--side-margin);
+    margin-right: var(--side-margin); */
+    background: var(--main-color);
+    height: 6px;
+    width: 100%;
+}
+
+.divider{
+    height: 1px;
+    width: 100%;
+    background: grey;
+    opacity: 0.35;
+    /* margin-left: var(--side-margin);
+    margin-right: var(--side-margin); */
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.header{
+    color: var(--main-color);
+    margin-top: 25px;
+    margin-bottom: 25px;
+    width: 100%;
+}
+
+.contact-info{
+    margin-top: 45px;
+    margin-bottom: 45px;
+    width: 100%;
+    /* margin-left: var(--side-margin);
+    margin-right: var(--side-margin); */
+}
+
+.invoice-total .total {
+    color: blue;
+}
+
+.lead{
+    padding-left: 15px;
+}
